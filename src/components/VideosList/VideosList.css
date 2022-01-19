@@ -1,0 +1,31 @@
+.videosList {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.videosList>img {
+    object-fit: contain;
+    width: 246px;
+    height: 138px;
+}
+
+.videosList__text {
+    margin-left: 14px;
+}
+
+.videosList__subs {
+    background-color: lightgray;
+    padding: 2px;
+}
+
+.videosList__headline {
+    font-size: 12px;
+    color: #606060;
+}
+
+.videosList__description {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #606060;
+}

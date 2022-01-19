@@ -1,0 +1,21 @@
+.recommendedVideos {
+    flex: .8;
+    background-color: #f9f9f9;
+    padding: 40px 40px;
+    padding-bottom: 60px;
+    overflow-y: scroll;
+    max-height: 100vh;
+    scroll-behavior: auto;
+}
+
+
+
+.recommendedVideos>h2 {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.recommendedVideos__video {
+    display: flex;
+    flex-wrap: wrap;
+}
